@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="744.0" styleClass="anchorpane" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.Application.SingleGamePageController">
+    <children>
+        <ImageView fx:id="image" fitHeight="280.0" fitWidth="300.0" layoutX="42.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="/images (54).jpeg" />
+            </image>
+        </ImageView>
+        <Label fx:id="gametitle" contentDisplay="CENTER" layoutX="42.0" layoutY="37.0" prefHeight="38.0" prefWidth="280.0" style="-fx-font-weight: bold; -fx-alignment: center;" text="Astro Bot" textAlignment="CENTER" textFill="#070707">
+            <font>
+                <Font name="Agency FB" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="372.0" layoutY="91.0" prefHeight="26.0" prefWidth="237.0" style="-fx-font-weight: bold;" text="About the game :">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextArea editable="false" layoutX="372.0" layoutY="125.0" prefHeight="72.0" prefWidth="360.0" text="Time to ride your trusty Dual Speeder across more than 50 planets full of fun, danger and surprises. On your journey, make the most of ASTRO's new powers." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+        </TextArea>
+        <Label layoutX="372.0" layoutY="208.0" style="-fx-font-weight: bold;" text="Category :">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="469.0" layoutY="208.0" prefHeight="27.0" prefWidth="261.0" text="Adventure - Platform">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button layoutX="489.0" layoutY="292.0" mnemonicParsing="false" onAction="#purchaseGame" prefHeight="38.0" prefWidth="126.0" text="Purchase">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="372.0" layoutY="239.0" style="-fx-font-weight: bold;" text="Released Date :">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="507.0" layoutY="239.0" prefHeight="27.0" prefWidth="237.0" text="6 Septembre 2024">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="657.0" layoutY="1.0" mnemonicParsing="false" onAction="#backToGamesPage" prefHeight="30.0" prefWidth="79.0" text="Back   --&gt;">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

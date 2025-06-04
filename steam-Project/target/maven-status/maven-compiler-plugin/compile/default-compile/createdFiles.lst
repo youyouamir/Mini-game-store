@@ -1,0 +1,12 @@
+org\Application\DataBaseConnection.class
+org\Application\LogInController.class
+org\Application\UserDB.class
+org\Application\Game.class
+org\Application\SignInController.class
+org\Application\GameDB.class
+org\Application\SingleGamePageController.class
+org\Application\ProfileController.class
+org\Application\PurchasedGamesDB.class
+org\Application\User.class
+org\Application\gamesPageController.class
+org\Application\Main.class
